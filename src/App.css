@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+ */
+ *{margin: 0; padding: 0;}
+#testWrap{width: 100%; height: 100%; /* background: red; */ min-width: 200px; min-height: 200px; overflow-y: auto;}
+
+.img-box{ width: 120px; height: 180px; float: left; margin-right: 20px;}
+.img-box img{width: 100%; height: 100%; margin-right: 20px;}
+.title-box{font-size: 25px; font-weight: bold;transform: translateX(-50%); position: relative; left: 50%;}
+.title-box{}
+.sub-title-box{font-size: 20px; text-align: center; margin-top: 20px;}
+.sub-contents-wrap{}
+.sub-contents-wrap ul{list-style: none;}
+.sub-contents-wrap ul li{text-align: center;}

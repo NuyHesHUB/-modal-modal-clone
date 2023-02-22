@@ -70,8 +70,10 @@ const useContentStyles = (width, height) => makeStyles((theme) => ({
         "& .react-resizable-handle": {
             position: "absolute",
             userSelect: 'none',
-            width: 20,
-            height: 20,
+            /* width: 20, */
+            width: 100,
+            /* height: 20, */
+            height: 100,
             bottom: 0,
             right: 0,
             background:
@@ -149,7 +151,7 @@ const Modal = ({ title, children, width, height, isResize, onClose }) => {
             <ModalTitle
                 id="draggable-modal-title"
                 onClose={onClose}
-                width={width}
+                /* width={width} */
                 isMinimized={isMinimized}
                 onMinimized={handleMinimized}
             >
