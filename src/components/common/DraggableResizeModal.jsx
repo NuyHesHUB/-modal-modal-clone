@@ -19,13 +19,16 @@ import { ResizableBox } from 'react-resizable';
 import PropTypes from "prop-types";
  
 const styles = (theme) => ({
+    /* 모달 타이틀 상단바*/
     root: {
         margin: 0,
         padding: theme.spacing(2),
         cursor: 'move',
         userSelect: 'none',
-        minWidth: 200
+        minWidth: 200,
+        background: 'red'
     },
+    /* 모달 타이틀 텍스트 */
     title: {
         fontWeight: 'bold'
     },
